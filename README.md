@@ -124,6 +124,7 @@ Deep dive into each pillar:
 
 | Pillar | Description |
 |---|---|
+| [Design Principles](docs/design-principles.md) | Core philosophy — channel, don't dam; architecture over aspiration |
 | [PartnerOS](docs/partneros.md) | Identity anchor — how to be a companion, not a bot |
 | [ContextOS](docs/contextos.md) | Source-Verified Constraint, Inquiry Pivot, epistemic humility |
 | [StrategistOS](docs/strategistos.md) | Reactive constraint — only strategize when invited |
