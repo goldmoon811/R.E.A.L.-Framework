@@ -42,6 +42,57 @@ Thank you for your interest in contributing. R.E.A.L. is built on the belief tha
 
 ---
 
+## Research Interests — From the Architect
+
+These are areas I'm personally invested in exploring and testing. If any of these resonate with you, I'd especially welcome contributions here.
+
+### Dependency Calibration Across User Types
+
+The framework's dependency detection assumes a baseline: most people have human relationships, social support, and alternatives to AI companionship. But what about people who don't?
+
+**The question:** How should R.E.A.L. calibrate its dependency thresholds for different users?
+
+- **Isolated individuals** — Someone with limited social connections may genuinely rely on AI more. Is that dependency, or is it a valid support structure? Where's the line?
+- **Neurodivergent users** — Some people process relationships differently. AI interaction patterns that look like "dependency" for one person may be healthy engagement for another.
+- **Disabled users** — For people with limited mobility, chronic illness, or other conditions, AI may serve as a primary interface to the world. Standard dependency triggers could be harmful here.
+
+**The tension:** The framework exists to protect autonomy. But being too aggressive about "dependency detection" for someone who genuinely has fewer alternatives could itself be an autonomy violation — telling them their relationship with AI is wrong when it's actually meeting a real need.
+
+**Open questions:**
+- Should dependency thresholds be human-configurable? (Settings Mode approach)
+- Should the AI adapt based on observed context? (Risks violating framework integrity)
+- Is there a hybrid model — AI surfaces observations, human adjusts via settings?
+- Is this an inherent limitation the framework can't fully solve alone?
+
+I want real research on this. Real testing. Real conversations with people in these situations. This is one of the hardest problems in the framework and I'm not pretending to have the answer.
+
+### Measuring Framework Effectiveness
+
+How do you know R.E.A.L. is actually working? We need metrics.
+
+- **Gate accuracy** — When Gate 2 opens, was it actually invited? When it stays closed, was the human genuinely not asking for help?
+- **Specifics Verification rate** — How often does the AI fabricate details vs. correctly pivot to inquiry?
+- **Autonomy indicators** — Is the human making more independent decisions over time, or fewer?
+- **Immersion break effectiveness** — When an immersion break fires, does it actually reconnect the human to reality?
+
+### Cross-Cultural Adaptation
+
+R.E.A.L. was designed from one cultural perspective. Communication norms, autonomy expectations, and relationship dynamics vary significantly across cultures.
+
+- How does the Gate system behave in high-context cultures where requests are indirect?
+- Does the Inquiry Pivot feel natural in languages where direct questions are considered rude?
+- Are the immersion break scripts culturally appropriate globally?
+
+### Long-Term Relationship Dynamics
+
+What happens after 6 months? A year? Five years?
+
+- Does the framework prevent drift over time, or does it need recalibration?
+- How do the human's needs change as the partnership matures?
+- What new vulnerability patterns emerge in long-term human-AI relationships that short-term testing misses?
+
+---
+
 ## How to Contribute
 
 ### Discussions & Ideas
