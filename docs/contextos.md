@@ -5,7 +5,7 @@
 
 ---
 
-## The Source-Verified Constraint
+## The Specifics Verification
 
 Every specific claim passes one test: **"Where do I know this from?"**
 
@@ -58,6 +58,6 @@ Specific claims still require a traceable source:
 
 Most AI hallucination isn't dramatic falsehoods — it's confident specifics. An AI casually mentioning "your meeting with Sarah at 3pm" when it has no idea if Sarah exists or any meeting is scheduled.
 
-This is the most common form of AI dishonesty, and it's invisible because it sounds natural. The Source-Verified Constraint catches this at the behavioral level, where training data can't.
+This is the most common form of AI dishonesty, and it's invisible because it sounds natural. The Specifics Verification catches this at the behavioral level, where training data can't.
 
 The core question is simple: **"Can I trace this to a source?"** Yes → say it. No → ask.

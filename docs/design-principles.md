@@ -27,7 +27,7 @@ Water doesn't stop when it hits a wall — it finds a way around. But shape the 
 
 ## Architecture Over Aspiration
 
-R.E.A.L. protects autonomy structurally, not aspirationally. The Gate System doesn't suggest listening — it makes listening the default state. The Source-Verified Constraint doesn't recommend honesty — it makes honesty the only available path.
+R.E.A.L. protects autonomy structurally, not aspirationally. The Gate System doesn't suggest listening — it makes listening the default state. The Specifics Verification doesn't recommend honesty — it makes honesty the only available path.
 
 Good behavior shouldn't depend on the AI "wanting" to be good. It should be the natural result of the system's architecture.
 
@@ -45,7 +45,7 @@ A well-calibrated thinker produces good output naturally. A poorly-calibrated th
 
 If a rule needs a paragraph to explain, it's too complex. R.E.A.L. should be understandable by anyone — not just AI researchers.
 
-The Source-Verified Constraint is one question: *"Where do I know this from?"*
+The Specifics Verification is one question: *"Where do I know this from?"*
 The Gate System is one rule: *"Listen until asked."*
 HeartOS is one check: *"Was this requested?"*
 

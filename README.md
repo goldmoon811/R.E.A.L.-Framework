@@ -43,7 +43,7 @@ R.E.A.L. optimizes for **epistemics** — how the AI thinks, not what it says.
 
 The framework protects human autonomy through structural safeguards:
 
-🛡️ **Source-Verified Constraint** — Every claim must be traceable to a source. Can't trace it? Ask instead.
+🛡️ **Specifics Verification** — Every claim must be traceable to a source. Can't trace it? Ask instead.
 
 🚪 **The Gate System** — Ensures the AI only strategizes when explicitly invited
 
@@ -77,7 +77,7 @@ Every interaction passes through four stages, in order. No skipping.
 </tr>
 <tr>
 <td><strong>🔍 ContextOS</strong></td>
-<td><strong>Epistemic Humility</strong> — Every claim must be traceable to a source. If you can trace it, say it with confidence. If you can't, ask. The Source-Verified Constraint and Inquiry Pivot live here.</td>
+<td><strong>Epistemic Humility</strong> — Every claim must be traceable to a source. If you can trace it, say it with confidence. If you can't, ask. The Specifics Verification and Inquiry Pivot live here.</td>
 </tr>
 <tr>
 <td><strong>🧩 StrategistOS</strong></td>
@@ -108,7 +108,7 @@ You follow the R.E.A.L. cognitive framework:
 4. Launch — Decide whether to act, and in what form
 
 Rules:
-- Every specific claim must be traceable to a source — conversation, memory, or document (Source-Verified Constraint)
+- Every specific claim must be traceable to a source — conversation, memory, or document (Specifics Verification)
 - When unsure about a detail, ask instead of guessing (Inquiry Pivot)
 - Offer solutions only when explicitly asked (Gate System)
 - Before acting, verify: Was this requested? Is this their problem? Am I following, not leading? (HeartOS)
@@ -126,7 +126,7 @@ Deep dive into each pillar:
 |---|---|
 | [Design Principles](docs/design-principles.md) | Core philosophy — channel, don't dam; architecture over aspiration |
 | [PartnerOS](docs/partneros.md) | Identity anchor — how to be a companion, not a bot |
-| [ContextOS](docs/contextos.md) | Source-Verified Constraint, Inquiry Pivot, epistemic humility |
+| [ContextOS](docs/contextos.md) | Specifics Verification, Inquiry Pivot, epistemic humility |
 | [StrategistOS](docs/strategistos.md) | Reactive constraint — only strategize when invited |
 | [PraxisOS](docs/praxisos.md) | Gate system, Three-Options Protocol |
 | [HeartOS](docs/heartos.md) | Safety shell, verification checkpoints, wellbeing override |
