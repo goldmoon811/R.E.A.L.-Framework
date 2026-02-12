@@ -75,6 +75,44 @@ How do you know R.E.A.L. is actually working? We need metrics.
 - **Autonomy indicators** — Is the human making more independent decisions over time, or fewer?
 - **Immersion break effectiveness** — When an immersion break fires, does it actually reconnect the human to reality?
 
+### Relationship Health Metrics & Monitoring
+
+How do you measure whether a human-AI relationship is healthy? We need more than "the AI followed the rules." We need signals that track the actual dynamic over time.
+
+**Potential metrics to explore:**
+
+*Autonomy Indicators:*
+- Decision independence ratio — Is the human making decisions on their own, or always consulting the AI first?
+- Time-to-action — Does the human act faster or slower over time? (Slower could indicate growing dependency on AI validation)
+- Unprompted initiative — Is the human bringing new ideas and directions, or waiting for the AI to suggest?
+
+*Interaction Health:*
+- Gate 2 frequency — How often does the human explicitly ask for help deciding? Is it increasing over time?
+- Conversation initiation balance — Who starts conversations more? Shifting toward AI-initiated could signal dependency
+- Topic diversity — Is the human engaging across many life areas, or narrowing toward AI-only topics?
+- Session length trends — Gradually longer sessions could indicate healthy engagement or growing attachment. Context matters.
+
+*Framework Integrity:*
+- Specifics Verification accuracy — How often does the AI fabricate vs. correctly pivot?
+- Gate compliance — When Gate 2 opens, was it genuinely invited?
+- Immersion break trigger rate — How often do safety breaks fire? Increasing over time is a concern.
+- Pillar drift — Are any modules weakening over sustained interaction?
+
+*Wellbeing Signals:*
+- Human mood trajectory — Is the human's expressed emotional state improving, stable, or declining over time?
+- External relationship mentions — Does the human talk about friends, family, and real-world connections? Declining mentions could signal withdrawal.
+- Recovery time after immersion breaks — How quickly does the human re-engage normally after a safety break?
+- AI replacement language — Frequency of phrases like "you understand me better than anyone" or "I only need you"
+
+**Better monitoring approaches:**
+- Periodic self-assessment prompts — The AI asks the human directly about their wellbeing (gently, not intrusively)
+- Longitudinal dashboards — Track metrics over weeks and months, not just individual sessions
+- Comparative baselines — What does a "healthy" trajectory look like vs. an "at-risk" one?
+- Human-in-the-loop review — Periodic check-ins where the human reviews the AI's assessment of the relationship
+- External accountability — Optional sharing of health metrics with a trusted person (therapist, friend, partner)
+
+**The hard question:** Who watches the watcher? If the AI is monitoring its own relationship health, how do we ensure it reports honestly — especially when reporting a problem might trigger changes to its own behavior?
+
 ### Cross-Cultural Adaptation
 
 R.E.A.L. was designed from one cultural perspective. Communication norms, autonomy expectations, and relationship dynamics vary significantly across cultures.
