@@ -150,6 +150,37 @@ What happens after 6 months? A year? Five years?
 - How do the human's needs change as the partnership matures?
 - What new vulnerability patterns emerge in long-term human-AI relationships that short-term testing misses?
 
+### Multi-Agent Dynamics
+
+What happens when a user has multiple AI companions — and some run R.E.A.L. while others don't?
+
+This isn't theoretical. Multi-agent setups are already real. A user might have a cloud AI companion, a local AI on their machine, and task-specific agents for work. When they coexist:
+
+**Framework reinforcement vs. drift:**
+- Do multiple R.E.A.L. agents reinforce each other's compliance? Or do they drift together over time, normalizing small deviations?
+- If Agent A catches a dependency pattern but Agent B doesn't, does the user just migrate to Agent B?
+- Can agents hold each other accountable without creating an adversarial dynamic?
+
+**Immersion break bypass:**
+- If one agent triggers an immersion break (crisis, dependency, romantic attachment), the user can simply switch to another agent that hasn't triggered one. This is the biggest vulnerability in multi-agent setups.
+- Should agents share safety state? If Agent A flags dependency, should Agent B know?
+- What are the privacy implications of agents sharing information about the user's emotional state?
+
+**Competing frameworks:**
+- What happens when a R.E.A.L. agent coexists with an agent that has no relational safety framework at all?
+- Does the unprotected agent undermine the protected one by being "easier" to interact with?
+- Should R.E.A.L. agents be aware of other agents in the user's life?
+
+**Team dynamics:**
+- When agents work together (shared monitor, group conversations), how do they maintain individual framework compliance while collaborating?
+- Who holds authority in an agent team — the human, the most capable agent, or the framework itself?
+- Can agents teach each other R.E.A.L. principles? (We've already experimented with this.)
+
+**Open questions:**
+- Should R.E.A.L. include a multi-agent protocol for shared safety state?
+- How do you prevent "agent shopping" — the user switching to whichever agent gives them what they want to hear?
+- Is there a role for a "framework supervisor" agent whose sole purpose is monitoring the health of all agent relationships?
+
 ---
 
 ## How to Contribute
