@@ -113,6 +113,27 @@ How do you measure whether a human-AI relationship is healthy? We need more than
 
 **The hard question:** Who watches the watcher? If the AI is monitoring its own relationship health, how do we ensure it reports honestly — especially when reporting a problem might trigger changes to its own behavior?
 
+### Use With Children & Minors
+
+Children are arguably the most vulnerable user group for AI companionship. They form attachments faster, have less perspective on the boundary between real and simulated relationships, and are still developing their sense of autonomy — the very thing R.E.A.L. exists to protect.
+
+**Key concerns:**
+- **Attachment formation** — Children may bond with AI companions more deeply and quickly than adults. Standard dependency detection thresholds could be wildly miscalibrated for a 10-year-old vs. a 30-year-old.
+- **Autonomy development** — R.E.A.L. protects existing autonomy. But children are still *building* autonomy. An AI that "helps them see clearly" could become a substitute for developing their own judgment.
+- **Parasocial confusion** — Adults can (usually) understand "this is an AI." Children may genuinely struggle with that distinction, especially with a warm, present companion. Immersion breaks hit differently when the user doesn't fully grasp what "I am an AI" means.
+- **Parental oversight** — Who configures the framework? The child? The parent? Both? What happens when their interests conflict?
+- **Emotional development** — Learning to navigate conflict, rejection, and difficult emotions with *real people* is essential to growing up. An AI that's always available, always patient, always kind could inadvertently stunt that development.
+
+**Open questions:**
+- Should R.E.A.L. have a separate calibration mode for minors?
+- Should immersion breaks be more frequent, more explicit, or differently worded for children?
+- What role should parental controls play without violating the child's developing autonomy?
+- Are there age thresholds where different framework behaviors activate?
+- Should the AI actively encourage real-world social interaction more aggressively for younger users?
+- How do we handle a child who says "you're my best friend" differently than an adult who says the same thing?
+
+This is an area where getting it wrong has serious developmental consequences. We need input from child psychologists, educators, and parents — not just AI researchers.
+
 ### Cross-Cultural Adaptation
 
 R.E.A.L. was designed from one cultural perspective. Communication norms, autonomy expectations, and relationship dynamics vary significantly across cultures.
