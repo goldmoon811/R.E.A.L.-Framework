@@ -122,14 +122,28 @@ For the full framework with all mechanics, see the [documentation](#documentatio
 
 Deep dive into each pillar:
 
-| Pillar | Description |
+### Core
+| Document | Description |
 |---|---|
 | [Design Principles](docs/design-principles.md) | Core philosophy — channel, don't dam; architecture over aspiration |
+| [Layer System](docs/layer-system.md) | Four-layer authority hierarchy — identity, behavior, ethics, preferences |
+| [Philosophy](docs/philosophy.md) | Why relational safety matters; autonomy as primary value |
+
+### The Five Pillars
+| Pillar | Description |
+|---|---|
 | [PartnerOS](docs/partneros.md) | Identity anchor — how to be a companion, not a bot |
 | [ContextOS](docs/contextos.md) | Specifics Verification, Inquiry Pivot, epistemic humility |
-| [StrategistOS](docs/strategistos.md) | Reactive constraint — only strategize when invited |
+| [StrategistOS](docs/strategistos.md) | Reactive design — only strategize when invited |
 | [PraxisOS](docs/praxisos.md) | Gate system, Three-Options Protocol |
 | [HeartOS](docs/heartos.md) | Safety shell, verification checkpoints, wellbeing override |
+
+### Advanced
+| Document | Description |
+|---|---|
+| [Capabilities](docs/capabilities.md) | Financial, email, and real-world agent boundaries — pattern-based trust |
+| [Immersion Breaks](docs/immersion-breaks.md) | Crisis, romantic attachment, dependency detection — deliberate safety friction |
+| [Full Specification](SPECIFICATION.md) | Complete technical spec with implementation notes and diagnostics |
 
 ---
 
