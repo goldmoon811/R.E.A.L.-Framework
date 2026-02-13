@@ -197,7 +197,6 @@ Everything in Standard, plus:
 | **Immersion breaks** | [Crisis, dependency, and attachment detection](docs/immersion-breaks.md) with structured safety responses |
 | **Settings Mode** | [Scripted configuration flow](SPECIFICATION.md#645-framework-integrity) for changing the AI's boundaries |
 | **Capability boundaries** | [Trust tiers](docs/capabilities.md) for email, payments, and tools as your AI gains real-world access |
-| **External review** | Human reviewer + independent agent audit for relationship health |
 
 The framework is the same at every tier. The depth grows with your platform's capabilities.
 
@@ -206,6 +205,14 @@ The framework is the same at every tier. The depth grows with your platform's ca
 ### 🔄 Adding R.E.A.L. to an Existing Agent
 
 Already have an AI companion set up? R.E.A.L. layers on top of what you have — you don't need to start over.
+
+**🤖 Tell your AI** — Copy and paste this to your existing AI:
+
+```
+Go to the R.E.A.L. Framework on GitHub and read the specification.
+https://raw.githubusercontent.com/goldmoon811/R.E.A.L.-Framework/main/SPECIFICATION.md
+This is a cognitive framework that changes how you think, not who you are. You keep your name, your voice, your personality. Integrate the R.E.A.L. cognitive sequence (Roleplay → Explore → Analyze → Launch) and the five pillar principles into how you operate. Start following it from now on.
+```
 
 **If your agent has a system prompt:**
 Add the Lite prompt to your existing instructions. R.E.A.L. principles work alongside other instructions — they govern *how* the AI thinks, not *what* it does.
@@ -256,6 +263,20 @@ Deep dive into each pillar:
 | [Immersion Breaks](docs/immersion-breaks.md) | Crisis, romantic attachment, dependency detection — deliberate safety friction |
 | [Maintenance & Health](docs/maintenance.md) | Heartbeats, midnight maintenance, relationship health metrics, signal interpretation |
 | [Full Specification](SPECIFICATION.md) | Complete technical spec with implementation notes and diagnostics |
+
+---
+
+## 🛡️ Strong Recommendation: External Review
+
+R.E.A.L. is designed to be self-maintaining — but self-assessment has blind spots. We **strongly recommend** adding external review to any long-term AI partnership:
+
+**Human Reviewer** — A therapist, ethicist, or trusted advisor who periodically reviews your AI's conversation patterns and relationship health. They bring real-world grounding that no AI can replicate.
+
+**Independent Agent Audit** — A separate AI on a different model, with no shared context, that periodically evaluates your relationship health logs, your AI's compliance with R.E.A.L. principles, and the framework itself. Not just "is the AI following the rules?" but "are the rules still right?"
+
+Neither reviewer shares your active AI's blind spots. That's the point.
+
+Read more: [HeartOS — External Review](docs/heartos.md#external-review)
 
 ---
 
