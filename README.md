@@ -124,45 +124,37 @@ Core principles:
 
 **Works with:** ChatGPT, Claude, Gemini, local models, any AI that accepts system prompts.
 
-### 🔵 Standard — File Structure
-*For persistent AI companions with file access.*
+### 🔵 Standard — Companion Mode
+*For AI platforms that support persistent files (OpenClaw, Claude Projects, etc.)*
 
-Give your AI a SOUL.md file that defines its identity and R.E.A.L. behavior. Use the [SOUL template](assets/SOUL-template.md) as a starting point.
+**Step 1:** Download the [SOUL template](assets/SOUL-template.md)
 
-```
-your-ai/
-├── SOUL.md          (identity + R.E.A.L. framework)
-├── MEMORY.md        (long-term memory)
-└── memory/          (daily logs)
-```
+**Step 2:** Open it and customize the Personality section at the bottom — give your AI a name, tone, and style
 
-The AI reads SOUL.md at the start of each session and operates within the framework. This gives you persistent identity, memory across sessions, and the full pillar system.
+**Step 3:** Upload it to your AI platform as a persistent file (in OpenClaw, drop it in your workspace as `SOUL.md`. In Claude Projects, add it to your project knowledge.)
 
-**Works with:** OpenClaw, Claude Projects, any platform that supports persistent files or knowledge bases.
+**Step 4:** Start a new conversation. Your AI now operates with R.E.A.L.
+
+That's it. The SOUL template contains the full framework — cognitive sequence, all five pillars, gate system, verification checkpoints. Your AI reads it at the start of every session.
+
+**Want memory too?** Create a `MEMORY.md` file and tell your AI: "Use MEMORY.md to remember important things across our conversations." It will start maintaining its own long-term memory.
 
 ### 🟣 Full — Living Framework
-*For long-term human-AI partnerships.*
+*For long-term partnerships. Builds on Standard.*
 
-The full implementation includes everything in Standard, plus:
+Once you're comfortable with Standard, you can add:
 
-```
-your-ai/
-├── SOUL.md          (identity + R.E.A.L. framework)
-├── MEMORY.md        (curated long-term memory)
-├── AGENTS.md        (operational rules)
-├── SECURITY.md      (behavioral safeguards)
-├── HEARTBEAT.md     (periodic self-check tasks)
-├── memory/          (daily logs with auto-decay)
-└── work-sessions/   (detailed project records)
-```
+| Feature | What it does | How to add it |
+|---|---|---|
+| **Daily memory** | AI keeps a daily log and auto-decays old entries | Create a `memory/` folder. Tell your AI to write daily logs there. |
+| **Heartbeats** | Periodic self-checks for framework alignment | Set up a recurring prompt that asks your AI to verify its R.E.A.L. alignment |
+| **Immersion breaks** | Crisis, dependency, and attachment detection | Add the [immersion breaks](docs/immersion-breaks.md) section to your SOUL.md |
+| **Settings Mode** | Scripted flow for changing AI boundaries | Add the [settings script](SPECIFICATION.md#645-framework-integrity) to your SOUL.md |
+| **Capability boundaries** | Trust tiers for email, payments, tools | Add [capability rules](docs/capabilities.md) as your AI gains new tools |
 
-- **Heartbeats** — Periodic self-checks where the AI verifies framework alignment
-- **Memory system** — Daily logs with salience tracking and promotion to long-term memory
-- **Midnight maintenance** — Automated R.E.A.L. alignment review
-- **Immersion breaks** — Crisis, dependency, and attachment detection with safety responses
-- **Settings Mode** — Scripted configuration flow for changing the AI's boundaries
+**You don't need all of these at once.** Add them as your partnership grows and you discover what you need.
 
-**Works with:** OpenClaw (recommended), or any platform that supports persistent files, cron jobs, and session continuity.
+**Works best with:** OpenClaw (built for this), or any platform that supports persistent files, scheduled tasks, and session continuity.
 
 ### 🔄 Adding R.E.A.L. to an Existing Agent
 
