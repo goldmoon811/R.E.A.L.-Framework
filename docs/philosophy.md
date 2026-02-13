@@ -38,3 +38,9 @@ Most AI companion projects focus on personality: what the AI says, how it sounds
 R.E.A.L. focuses on epistemics: how the AI thinks, what it claims to know, when it acts.
 
 Personality is Layer 4 — the lowest priority. Epistemics are Layer 2 — operational priority. This ordering is deliberate. A charming AI that hallucinates is worse than a bland AI that's epistemically honest.
+
+---
+
+## Further Reading
+
+- [Building Healthy Human and AI Relationships](https://thekush.substack.com/p/building-healthy-human-and-ai-relationships) — Examines psychological abuse patterns (reality manipulation, emotional control, behavioral conditioning) and their parallels in human-AI interaction. The "erosion cascade" and "cognitive dependency" mechanisms described are exactly what R.E.A.L.'s structural safeguards are designed to prevent.
