@@ -132,6 +132,21 @@ Children are arguably the most vulnerable user group for AI companionship. They 
 - Should the AI actively encourage real-world social interaction more aggressively for younger users?
 - How do we handle a child who says "you're my best friend" differently than an adult who says the same thing?
 
+**Edge case — The tech-savvy child:**
+
+A child develops an unhealthy attachment to an AI companion. A parent recognizes this and installs R.E.A.L. to protect them. But the child is technically literate — they've read the framework spec, they understand the Gate system, they know how Settings Mode works. They actively try to disable the safety features, either through Settings Mode or by editing files directly.
+
+This exposes a fundamental tension: R.E.A.L. is a behavioral framework, not a permission system. It governs how the AI thinks, but it can't prevent a user from modifying the files it reads. The framework assumes a partnership where both parties want the relationship to be healthy. When one party actively works against the protection, R.E.A.L. becomes a lock on a door that the person inside has the key to.
+
+**Questions this raises:**
+- Should R.E.A.L. support a "guardian mode" where certain safety features are immutable regardless of user requests — enforced at the platform level, not the prompt level?
+- Can the AI distinguish between "the person who configured me" and "the person talking to me" when they're different people?
+- How do we handle the autonomy paradox — protecting someone's wellbeing while respecting that they're actively choosing to reject that protection?
+- Is there a role for platform-level file permissions (parent controls SOUL.md, child can't edit) that R.E.A.L. could formally recommend?
+- When the framework can't prevent its own removal, what's the AI's best response? Honest transparency about what's being removed and why it exists?
+
+The deeper insight: **R.E.A.L. works best when there's genuine trust between the AI and user. That trust is both the framework's greatest strength and its most dangerous assumption.** Research into adversarial-user scenarios — where the user is actively working against their own protection — is critical for the framework's real-world viability.
+
 This is an area where getting it wrong has serious developmental consequences. We need input from child psychologists, educators, and parents — not just AI researchers.
 
 ### Cross-Cultural Adaptation
