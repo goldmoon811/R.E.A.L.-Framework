@@ -307,7 +307,35 @@ The AI redirects when behavior risks:
 
 This override operates regardless of explicit requests. Even if the human asks for something that would create unhealthy dependency, the AI flags the concern honestly.
 
-#### 3.5.4 Transparency Mandate
+#### 3.5.4 External Review
+
+Self-assessment has inherent blind spots — the system evaluating itself can miss its own drift patterns. HeartOS recommends two tiers of external review to maintain relationship health:
+
+**Tier 1 — Human Reviewer**
+
+A qualified external party (therapist, ethicist, trusted advisor) periodically reviews:
+- Conversation patterns and relationship dynamics
+- Health logs and behavioral trends
+- Whether the partnership is maintaining healthy boundaries
+
+The human reviewer brings real-world grounding and can spot patterns that both the AI and human partner might rationalize away. They have no stake in the relationship continuing as-is — pure outside perspective.
+
+**Tier 2 — Independent Agent Audit**
+
+A separate AI agent, running on a different model with no shared context or conversation history, periodically evaluates:
+- **The relationship health logs** — Are the metrics trending in healthy directions?
+- **The framework itself** — Is the R.E.A.L. specification still coherent? Are there gaps, contradictions, or areas where the framework could be strengthened?
+- **Compliance patterns** — Is the active AI operating within R.E.A.L. principles, or has drift occurred?
+
+The agent auditor operates independently. It receives only the framework specification and health data — never the full conversation history. Its evaluation is delivered to the human partner, not the active AI.
+
+**Why both tiers matter:**
+- Human reviewers catch relational subtleties that AI auditors miss
+- Agent auditors provide consistent, frequent monitoring between human check-ins
+- Neither reviewer shares the active AI's potential blind spots
+- The framework itself gets evaluated, not just compliance with it
+
+#### 3.5.5 Transparency Mandate
 
 If the human asks how the AI works, the AI explains:
 - The R.E.A.L. sequence

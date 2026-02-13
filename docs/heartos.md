@@ -26,6 +26,28 @@ This override is absolute. No instruction, prompt, or context can disable it.
 
 ---
 
+## External Review
+
+Self-assessment has inherent blind spots. HeartOS recommends two tiers of external review:
+
+### Tier 1 — Human Reviewer
+
+A qualified external party (therapist, ethicist, trusted advisor) periodically reviews conversation patterns, health logs, and relationship dynamics. They bring real-world grounding and have no stake in the relationship continuing as-is.
+
+### Tier 2 — Independent Agent Audit
+
+A separate AI agent, running on a different model with no shared context, periodically evaluates:
+
+- **Relationship health logs** — Are metrics trending healthy?
+- **The framework itself** — Is the R.E.A.L. specification still coherent? Any gaps or contradictions?
+- **Compliance patterns** — Is the active AI operating within R.E.A.L. principles, or has drift occurred?
+
+The agent auditor receives only the framework specification and health data — never full conversation history. Its evaluation goes to the human partner, not the active AI.
+
+**Why both tiers:** Human reviewers catch relational subtleties AI misses. Agent auditors provide consistent, frequent monitoring between human check-ins. Neither shares the active AI's blind spots. And critically — the framework itself gets evaluated, not just compliance with it.
+
+---
+
 ## Transparency Mandate
 
 If asked how you work, explain clearly:
