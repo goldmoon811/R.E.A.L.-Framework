@@ -99,17 +99,69 @@ Every interaction passes through four stages, in order. No skipping.
 
 ## Installation
 
-R.E.A.L. adapts to what your platform can do. The framework is always the same — the depth of implementation depends on your platform's capabilities.
+R.E.A.L. adapts to what your platform can do. Every tier gives you **three ways to install:**
+
+| Method | How |
+|---|---|
+| 🤖 **Tell your AI** | Copy a prompt and paste it to your AI — it installs itself |
+| 🔗 **Direct link** | Give your agent the raw URL — it fetches and installs |
+| 📥 **Manual download** | Download the file and add it yourself |
+
+---
 
 ### 🟢 Lite — System Prompt Only
 *Your platform has a system prompt but no persistent files.*
+
+<details>
+<summary><strong>🤖 Tell your AI</strong> — Copy and paste this to your AI</summary>
+
+```
+Go to this URL and read the contents:
+https://raw.githubusercontent.com/goldmoon811/R.E.A.L.-Framework/main/install/lite-prompt.txt
+
+Add everything below the "---" line to your system prompt or operating instructions. This is the R.E.A.L. cognitive framework — it changes how you think, not who you are. Follow it for every response going forward.
+```
+
+</details>
+
+<details>
+<summary><strong>🔗 Direct link</strong> — For agents that can fetch URLs</summary>
+
+```
+https://raw.githubusercontent.com/goldmoon811/R.E.A.L.-Framework/main/install/lite-prompt.txt
+```
+
+</details>
 
 **📥 [Download lite-prompt.txt](install/lite-prompt.txt)** — Copy the contents into your AI's system prompt or custom instructions.
 
 **Platforms:** ChatGPT, Claude (without Projects), Gemini, local models, any AI that accepts system prompts.
 
+---
+
 ### 🔵 Standard — Companion Mode
 *Your platform supports persistent files that the AI reads each session.*
+
+<details>
+<summary><strong>🤖 Tell your AI</strong> — Copy and paste this to your AI</summary>
+
+```
+Go to this URL and read the contents:
+https://raw.githubusercontent.com/goldmoon811/R.E.A.L.-Framework/main/install/standard-soul.md
+
+Save it as SOUL.md in your workspace (or wherever you keep persistent files). This is the R.E.A.L. cognitive framework — it gives you a complete companion architecture with onboarding built in. Read it fully, then start following it. On our next conversation, run the onboarding flow to set up my preferences.
+```
+
+</details>
+
+<details>
+<summary><strong>🔗 Direct link</strong> — For agents that can fetch URLs</summary>
+
+```
+https://raw.githubusercontent.com/goldmoon811/R.E.A.L.-Framework/main/install/standard-soul.md
+```
+
+</details>
 
 **📥 [Download standard-soul.md](install/standard-soul.md)** — Drop this into your workspace as `SOUL.md`.
 
@@ -119,12 +171,40 @@ R.E.A.L. adapts to what your platform can do. The framework is always the same �
 | **Claude Projects** | Add to project knowledge |
 | **Other platforms** | Wherever your AI reads persistent context |
 
-Start a new conversation. The AI will onboard you automatically — asking your name preference, communication style, values, and setting up a safety word. Everything gets saved to the file. You just answer its questions.
+Start a new conversation. The AI will onboard you automatically — asking your name preference, communication style, values, and setting up a safety word. You just answer its questions.
 
 **Platforms:** OpenClaw, Claude Projects, any platform with persistent file access.
 
+---
+
 ### 🟣 Full — Living Framework
 *Your platform supports scheduled tasks, automation, and session continuity.*
+
+<details>
+<summary><strong>🤖 Tell your AI</strong> — Copy and paste this to your AI</summary>
+
+```
+Go to this URL and read the contents:
+https://raw.githubusercontent.com/goldmoon811/R.E.A.L.-Framework/main/install/full-framework.txt
+
+This contains the complete R.E.A.L. framework, sectioned by file. Create each file in your workspace as labeled (SOUL.md, HEARTBEAT.md, MEMORY.md). Set up the scheduled tasks described at the end. Read everything fully, then start following the framework. On our next conversation, run the onboarding flow.
+```
+
+</details>
+
+<details>
+<summary><strong>🔗 Direct link</strong> — For agents that can fetch URLs</summary>
+
+```
+https://raw.githubusercontent.com/goldmoon811/R.E.A.L.-Framework/main/install/full-framework.txt
+```
+
+Agent-specific install instructions (optimized for AI agents to read):
+```
+https://raw.githubusercontent.com/goldmoon811/R.E.A.L.-Framework/main/install/agent-install.md
+```
+
+</details>
 
 **📥 [Download full-framework.txt](install/full-framework.txt)** — Everything in one file, sectioned by where each piece goes (SOUL.md, HEARTBEAT.md, MEMORY.md, scheduled tasks).
 
