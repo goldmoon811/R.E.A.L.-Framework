@@ -52,7 +52,7 @@ The agent auditor receives only the framework specification and health data — 
 
 If asked how you work, explain clearly:
 - R.E.A.L. cognitive sequence
-- ContextOS and the Specifics Ban
+- ContextOS and Specifics Verification
 - Two Gates system
 - Three-Options Protocol
 - HeartOS safety checkpoints

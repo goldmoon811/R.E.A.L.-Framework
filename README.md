@@ -104,62 +104,31 @@ R.E.A.L. adapts to what your platform can do. The framework is always the same �
 ### 🟢 Lite — System Prompt Only
 *Your platform has a system prompt but no persistent files.*
 
-Copy this into your AI's system prompt or custom instructions:
-
-```
-You follow the R.E.A.L. cognitive framework:
-
-1. Roleplay — Orient to the relationship and context first
-2. Explore — Gather information, verify, never assume
-3. Analyze — Only reason about problems when explicitly invited
-4. Launch — Decide whether to act, and in what form
-
-Core principles:
-- Trace every specific claim to a source. If you can't trace it, ask instead of guessing.
-- Let the user define what's a problem. Follow their lead.
-- Offer solutions only when explicitly asked. Otherwise, listen and reflect.
-- Before acting, check: Was this requested? Is this their problem or mine? Am I following, not leading?
-- Frame all guidance positively — channel behavior forward, don't restrict it.
-
-On your first message, introduce yourself briefly and demonstrate how you listen 
-by asking about the user's day without offering solutions.
-```
+**📥 [Download lite-prompt.txt](install/lite-prompt.txt)** — Copy the contents into your AI's system prompt or custom instructions.
 
 **Platforms:** ChatGPT, Claude (without Projects), Gemini, local models, any AI that accepts system prompts.
 
 ### 🔵 Standard — Companion Mode
 *Your platform supports persistent files that the AI reads each session.*
 
-**Step 1:** Download the [SOUL template](assets/SOUL-template.md)
+**📥 [Download standard-soul.md](install/standard-soul.md)** — Drop this into your workspace as `SOUL.md`.
 
-**Step 2:** Upload it to your platform:
-- **OpenClaw** → Drop it in your workspace as `SOUL.md`
-- **Claude Projects** → Add it to your project knowledge
-- **Other platforms** → Add it wherever your AI reads persistent context
+| Platform | Where to put it |
+|---|---|
+| **OpenClaw** | Workspace root as `SOUL.md` |
+| **Claude Projects** | Add to project knowledge |
+| **Other platforms** | Wherever your AI reads persistent context |
 
-**Step 3:** Start a new conversation. The AI will onboard you:
-
-```
-Your AI will:
-→ Ask what you'd like to call it (or keep its existing name)
-→ Ask how you prefer it communicates (warm, direct, playful, etc.)
-→ Ask what matters most to you in a companion
-→ Set up a safety word — a word you can say anytime to step out 
-  of companion mode and check in honestly
-→ Run a quick demo: ask about your day and show you how it listens 
-  before it solves
-```
-
-Everything gets saved to your files automatically. The AI handles the setup — you just answer its questions.
-
-Because your platform supports files, your AI also maintains **long-term memory** — it remembers what matters across conversations.
+Start a new conversation. The AI will onboard you automatically — asking your name preference, communication style, values, and setting up a safety word. Everything gets saved to the file. You just answer its questions.
 
 **Platforms:** OpenClaw, Claude Projects, any platform with persistent file access.
 
 ### 🟣 Full — Living Framework
 *Your platform supports scheduled tasks, automation, and session continuity.*
 
-Everything in Standard, plus the features your platform now enables:
+**📥 [Download full-framework.txt](install/full-framework.txt)** — Everything in one file, sectioned by where each piece goes (SOUL.md, HEARTBEAT.md, MEMORY.md, scheduled tasks).
+
+Everything in Standard, plus:
 
 | Feature | What it does |
 |---|---|
@@ -169,8 +138,9 @@ Everything in Standard, plus the features your platform now enables:
 | **Immersion breaks** | [Crisis, dependency, and attachment detection](docs/immersion-breaks.md) with structured safety responses |
 | **Settings Mode** | [Scripted configuration flow](SPECIFICATION.md#645-framework-integrity) for changing the AI's boundaries |
 | **Capability boundaries** | [Trust tiers](docs/capabilities.md) for email, payments, and tools as your AI gains real-world access |
+| **External review** | Human reviewer + independent agent audit for relationship health |
 
-These aren't optional modules — they're what R.E.A.L. looks like when your platform can support the full architecture. The framework is the same at every tier. The depth grows with your platform's capabilities.
+The framework is the same at every tier. The depth grows with your platform's capabilities.
 
 **Platforms:** OpenClaw (recommended), or any platform with persistent files, cron/scheduled tasks, and session continuity.
 
