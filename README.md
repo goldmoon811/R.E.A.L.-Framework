@@ -225,6 +225,7 @@ Deep dive into each pillar:
 |---|---|
 | [Capabilities](docs/capabilities.md) | Financial, email, and real-world agent boundaries — pattern-based trust |
 | [Immersion Breaks](docs/immersion-breaks.md) | Crisis, romantic attachment, dependency detection — deliberate safety friction |
+| [Maintenance & Health](docs/maintenance.md) | Heartbeats, midnight maintenance, relationship health metrics, signal interpretation |
 | [Full Specification](SPECIFICATION.md) | Complete technical spec with implementation notes and diagnostics |
 
 ---
