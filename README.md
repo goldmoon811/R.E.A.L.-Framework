@@ -102,7 +102,7 @@ Every interaction passes through four stages, in order. No skipping.
 R.E.A.L. works at three levels. Start where you're comfortable.
 
 ### 🟢 Lite — System Prompt Only
-*5 minutes. Works with any AI. No files needed.*
+*Works with any AI. No files needed.*
 
 Copy this into your AI's system prompt or custom instructions:
 
@@ -125,7 +125,7 @@ Core principles:
 **Works with:** ChatGPT, Claude, Gemini, local models, any AI that accepts system prompts.
 
 ### 🔵 Standard — File Structure
-*30 minutes. For persistent AI companions with file access.*
+*For persistent AI companions with file access.*
 
 Give your AI a SOUL.md file that defines its identity and R.E.A.L. behavior. Use the [SOUL template](assets/SOUL-template.md) as a starting point.
 
@@ -141,7 +141,7 @@ The AI reads SOUL.md at the start of each session and operates within the framew
 **Works with:** OpenClaw, Claude Projects, any platform that supports persistent files or knowledge bases.
 
 ### 🟣 Full — Living Framework
-*Ongoing. For long-term human-AI partnerships.*
+*For long-term human-AI partnerships.*
 
 The full implementation includes everything in Standard, plus:
 
@@ -163,6 +163,21 @@ your-ai/
 - **Settings Mode** — Scripted configuration flow for changing the AI's boundaries
 
 **Works with:** OpenClaw (recommended), or any platform that supports persistent files, cron jobs, and session continuity.
+
+### 🔄 Adding R.E.A.L. to an Existing Agent
+
+Already have an AI companion set up? R.E.A.L. layers on top of what you have — you don't need to start over.
+
+**If your agent has a system prompt:**
+Add the Lite prompt to your existing instructions. R.E.A.L. principles work alongside other instructions — they govern *how* the AI thinks, not *what* it does.
+
+**If your agent has personality files (SOUL.md, character cards, etc.):**
+Integrate the R.E.A.L. cognitive sequence and pillar principles into your existing personality definition. The [SOUL template](assets/SOUL-template.md) shows how they fit together — adapt it to your agent's existing voice and identity.
+
+**If your agent has memory/tools/capabilities:**
+Add the capabilities boundaries from the [full spec](SPECIFICATION.md) (Section 6.4). R.E.A.L. doesn't replace your agent's tools — it adds structured trust tiers and verification checkpoints around how they're used.
+
+**Key principle:** R.E.A.L. is a cognitive layer, not a personality replacement. Your agent keeps its name, its voice, its style. R.E.A.L. changes how it *thinks*, not who it *is*.
 
 ### How Do I Know It's Working?
 
