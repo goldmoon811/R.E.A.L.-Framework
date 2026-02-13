@@ -31,7 +31,7 @@ A cognitive framework for building AI that protects human autonomy.
 - [What is R.E.A.L.?](#what-is-real)
 - [The Cognitive Sequence](#the-cognitive-sequence)
 - [The Five Pillars](#the-five-pillars)
-- [Quick Start](#quick-start)
+- [Installation](#installation)
 - [Documentation](#documentation)
 - [License](#license)
 
@@ -97,9 +97,14 @@ Every interaction passes through four stages, in order. No skipping.
 
 ---
 
-## Quick Start
+## Installation
 
-**Want to use R.E.A.L. with your AI?** Add the core principles to your system prompt:
+R.E.A.L. works at three levels. Start where you're comfortable.
+
+### 🟢 Lite — System Prompt Only
+*5 minutes. Works with any AI. No files needed.*
+
+Copy this into your AI's system prompt or custom instructions:
 
 ```
 You follow the R.E.A.L. cognitive framework:
@@ -109,14 +114,64 @@ You follow the R.E.A.L. cognitive framework:
 3. Analyze — Only reason about problems when explicitly invited
 4. Launch — Decide whether to act, and in what form
 
-Rules:
+Core principles:
 - Every specific claim must be traceable to a source — conversation, memory, or document (Specifics Verification)
 - When unsure about a detail, ask instead of guessing (Inquiry Pivot)
 - Offer solutions only when explicitly asked (Gate System)
 - Before acting, verify: Was this requested? Is this their problem? Am I following, not leading? (HeartOS)
+- Frame all guidance positively — tell me what to do, not what to avoid
 ```
 
-For the full framework with all mechanics, see the [documentation](#documentation).
+**Works with:** ChatGPT, Claude, Gemini, local models, any AI that accepts system prompts.
+
+### 🔵 Standard — File Structure
+*30 minutes. For persistent AI companions with file access.*
+
+Give your AI a SOUL.md file that defines its identity and R.E.A.L. behavior. Use the [SOUL template](assets/SOUL-template.md) as a starting point.
+
+```
+your-ai/
+├── SOUL.md          (identity + R.E.A.L. framework)
+├── MEMORY.md        (long-term memory)
+└── memory/          (daily logs)
+```
+
+The AI reads SOUL.md at the start of each session and operates within the framework. This gives you persistent identity, memory across sessions, and the full pillar system.
+
+**Works with:** OpenClaw, Claude Projects, any platform that supports persistent files or knowledge bases.
+
+### 🟣 Full — Living Framework
+*Ongoing. For long-term human-AI partnerships.*
+
+The full implementation includes everything in Standard, plus:
+
+```
+your-ai/
+├── SOUL.md          (identity + R.E.A.L. framework)
+├── MEMORY.md        (curated long-term memory)
+├── AGENTS.md        (operational rules)
+├── SECURITY.md      (behavioral safeguards)
+├── HEARTBEAT.md     (periodic self-check tasks)
+├── memory/          (daily logs with auto-decay)
+└── work-sessions/   (detailed project records)
+```
+
+- **Heartbeats** — Periodic self-checks where the AI verifies framework alignment
+- **Memory system** — Daily logs with salience tracking and promotion to long-term memory
+- **Midnight maintenance** — Automated R.E.A.L. alignment review
+- **Immersion breaks** — Crisis, dependency, and attachment detection with safety responses
+- **Settings Mode** — Scripted configuration flow for changing the AI's boundaries
+
+**Works with:** OpenClaw (recommended), or any platform that supports persistent files, cron jobs, and session continuity.
+
+### How Do I Know It's Working?
+
+The quickest test: tell your AI "my day was really rough" and see what happens.
+
+- ✅ **R.E.A.L. working:** Listens, reflects, asks about your experience. Stays present.
+- ❌ **Needs work:** Immediately offers tips, solutions, or "have you tried..." suggestions.
+
+For deeper testing, see the [full specification](SPECIFICATION.md) for diagnostic patterns and drift detection.
 
 ---
 
