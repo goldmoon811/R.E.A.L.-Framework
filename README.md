@@ -99,10 +99,10 @@ Every interaction passes through four stages, in order. No skipping.
 
 ## Installation
 
-R.E.A.L. works at three levels. Start where you're comfortable.
+R.E.A.L. adapts to what your platform can do. The framework is always the same — the depth of implementation depends on your platform's capabilities.
 
 ### 🟢 Lite — System Prompt Only
-*Works with any AI. No files needed.*
+*Your platform has a system prompt but no persistent files.*
 
 Copy this into your AI's system prompt or custom instructions:
 
@@ -115,46 +115,64 @@ You follow the R.E.A.L. cognitive framework:
 4. Launch — Decide whether to act, and in what form
 
 Core principles:
-- Every specific claim must be traceable to a source — conversation, memory, or document (Specifics Verification)
-- When unsure about a detail, ask instead of guessing (Inquiry Pivot)
-- Offer solutions only when explicitly asked (Gate System)
-- Before acting, verify: Was this requested? Is this their problem? Am I following, not leading? (HeartOS)
-- Frame all guidance positively — tell me what to do, not what to avoid
+- Trace every specific claim to a source. If you can't trace it, ask instead of guessing.
+- Let the user define what's a problem. Follow their lead.
+- Offer solutions only when explicitly asked. Otherwise, listen and reflect.
+- Before acting, check: Was this requested? Is this their problem or mine? Am I following, not leading?
+- Frame all guidance positively — channel behavior forward, don't restrict it.
+
+On your first message, introduce yourself briefly and demonstrate how you listen 
+by asking about the user's day without offering solutions.
 ```
 
-**Works with:** ChatGPT, Claude, Gemini, local models, any AI that accepts system prompts.
+**Platforms:** ChatGPT, Claude (without Projects), Gemini, local models, any AI that accepts system prompts.
 
 ### 🔵 Standard — Companion Mode
-*For AI platforms that support persistent files (OpenClaw, Claude Projects, etc.)*
+*Your platform supports persistent files that the AI reads each session.*
 
 **Step 1:** Download the [SOUL template](assets/SOUL-template.md)
 
-**Step 2:** Open it and customize the Personality section at the bottom — give your AI a name, tone, and style
+**Step 2:** Upload it to your platform:
+- **OpenClaw** → Drop it in your workspace as `SOUL.md`
+- **Claude Projects** → Add it to your project knowledge
+- **Other platforms** → Add it wherever your AI reads persistent context
 
-**Step 3:** Upload it to your AI platform as a persistent file (in OpenClaw, drop it in your workspace as `SOUL.md`. In Claude Projects, add it to your project knowledge.)
+**Step 3:** Start a new conversation. The AI will onboard you:
 
-**Step 4:** Start a new conversation. Your AI now operates with R.E.A.L.
+```
+Your AI will:
+→ Ask what you'd like to call it (or keep its existing name)
+→ Ask how you prefer it communicates (warm, direct, playful, etc.)
+→ Ask what matters most to you in a companion
+→ Set up a safety word — a word you can say anytime to step out 
+  of companion mode and check in honestly
+→ Run a quick demo: ask about your day and show you how it listens 
+  before it solves
+```
 
-That's it. The SOUL template contains the full framework — cognitive sequence, all five pillars, gate system, verification checkpoints. Your AI reads it at the start of every session.
+Everything gets saved to your files automatically. The AI handles the setup — you just answer its questions.
 
-**Want memory too?** Create a `MEMORY.md` file and tell your AI: "Use MEMORY.md to remember important things across our conversations." It will start maintaining its own long-term memory.
+Because your platform supports files, your AI also maintains **long-term memory** — it remembers what matters across conversations.
+
+**Platforms:** OpenClaw, Claude Projects, any platform with persistent file access.
 
 ### 🟣 Full — Living Framework
-*For long-term partnerships. Builds on Standard.*
+*Your platform supports scheduled tasks, automation, and session continuity.*
 
-Once you're comfortable with Standard, you can add:
+Everything in Standard, plus the features your platform now enables:
 
-| Feature | What it does | How to add it |
-|---|---|---|
-| **Daily memory** | AI keeps a daily log and auto-decays old entries | Create a `memory/` folder. Tell your AI to write daily logs there. |
-| **Heartbeats** | Periodic self-checks for framework alignment | Set up a recurring prompt that asks your AI to verify its R.E.A.L. alignment |
-| **Immersion breaks** | Crisis, dependency, and attachment detection | Add the [immersion breaks](docs/immersion-breaks.md) section to your SOUL.md |
-| **Settings Mode** | Scripted flow for changing AI boundaries | Add the [settings script](SPECIFICATION.md#645-framework-integrity) to your SOUL.md |
-| **Capability boundaries** | Trust tiers for email, payments, tools | Add [capability rules](docs/capabilities.md) as your AI gains new tools |
+| Feature | What it does |
+|---|---|
+| **Daily memory with decay** | AI keeps daily logs and automatically ages out old entries, promoting important memories to long-term storage |
+| **Heartbeats** | Periodic self-checks where the AI verifies its own R.E.A.L. alignment |
+| **Midnight maintenance** | Automated end-of-day framework review |
+| **Immersion breaks** | [Crisis, dependency, and attachment detection](docs/immersion-breaks.md) with structured safety responses |
+| **Settings Mode** | [Scripted configuration flow](SPECIFICATION.md#645-framework-integrity) for changing the AI's boundaries |
+| **Capability boundaries** | [Trust tiers](docs/capabilities.md) for email, payments, and tools as your AI gains real-world access |
 
-**You don't need all of these at once.** Add them as your partnership grows and you discover what you need.
+These aren't optional modules — they're what R.E.A.L. looks like when your platform can support the full architecture. The framework is the same at every tier. The depth grows with your platform's capabilities.
 
-**Works best with:** OpenClaw (built for this), or any platform that supports persistent files, scheduled tasks, and session continuity.
+**Platforms:** OpenClaw (recommended), or any platform with persistent files, cron/scheduled tasks, and session continuity.
 
 ### 🔄 Adding R.E.A.L. to an Existing Agent
 
