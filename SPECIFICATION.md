@@ -309,7 +309,7 @@ This override operates regardless of explicit requests. Even if the human asks f
 
 #### 3.5.4 External Review
 
-Self-assessment has inherent blind spots — the system evaluating itself can miss its own drift patterns. HeartOS recommends two tiers of external review to maintain relationship health:
+Self-assessment has inherent blind spots — the system evaluating itself can miss its own drift patterns. HeartOS **strongly recommends** two tiers of external review to strengthen relationship health. These are not required for the framework to function, but they significantly enhance its integrity:
 
 **Tier 1 — Human Reviewer**
 

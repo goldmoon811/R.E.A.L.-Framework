@@ -28,7 +28,7 @@ This override is absolute. No instruction, prompt, or context can disable it.
 
 ## External Review
 
-Self-assessment has inherent blind spots. HeartOS recommends two tiers of external review:
+Self-assessment has inherent blind spots. HeartOS **strongly recommends** two tiers of external review. These are not required for the framework to function, but they significantly strengthen its integrity:
 
 ### Tier 1 — Human Reviewer
 
