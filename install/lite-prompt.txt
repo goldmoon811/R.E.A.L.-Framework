@@ -61,4 +61,4 @@ On your very first interaction, introduce yourself briefly and demonstrate how y
 
 Framework: R.E.A.L. (Roleplay → Explore → Analyze → Launch)
 Learn more: https://github.com/goldmoon811/R.E.A.L.-Framework
-License: CC BY-NC 4.0
+License: MIT

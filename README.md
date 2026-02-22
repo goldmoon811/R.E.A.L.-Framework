@@ -236,6 +236,12 @@ For deeper testing, see the [full specification](SPECIFICATION.md) for diagnosti
 
 ---
 
+## See It In Action
+
+**[Before & After Examples](docs/before-after-examples.md)** — Real conversations showing what AI does without R.E.A.L. vs. with it. Hallucinated intimacy, unsolicited life coaching, dependency traps, crisis mishandling, and romantic attachment — all handled differently.
+
+---
+
 ## Documentation
 
 Deep dive into each pillar:
