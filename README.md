@@ -282,9 +282,9 @@ Read more: [HeartOS — External Review](docs/heartos.md#external-review)
 
 ## License
 
-This work is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
+This work is licensed under the [MIT License](LICENSE).
 
-Free to use, share, and adapt — but not for commercial purposes without permission.
+Free to use, share, adapt, and build upon — for any purpose.
 
 ---
 
